@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
 import SearchBar from '../components/SearchBar';
 import Result from '../components/Result';
 import { getUserData } from '../lib/api';
@@ -22,15 +21,11 @@ function Main() {
   };
 
   return (
-    <MainWrap>
+    <>
       <SearchBar onSubmit={onSubmit} />
       <Result userState={userState} />
-    </MainWrap>
+    </>
   );
 }
-
-const MainWrap = styled.div`
-  padding: 10rem;
-`;
 
 export default Main;

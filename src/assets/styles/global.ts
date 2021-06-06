@@ -6,15 +6,22 @@ const GlobalStyle = createGlobalStyle`
 
   * {
     box-sizing: border-box;
+
+    a {
+      text-decoration: none;
+    }
   }
 
   html,
   body {
+    font-family: 'IBMPlexSansKR-Regular';
     font-size: 10px;
   }
 
   body {
-    background-color: #341f97;
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
   }
 `;
 

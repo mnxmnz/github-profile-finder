@@ -37,7 +37,7 @@ const StyledSearchBarWrap = styled.div`
 const StyledTitle = styled.div`
   font-size: 3rem;
   font-weight: bold;
-  color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.black};
 `;
 
 const StyledForm = styled.form`
@@ -49,8 +49,8 @@ const StyledForm = styled.form`
 const StyledInput = styled.input`
   width: 33rem;
   border-radius: 1rem;
-  border-color: ${({ theme }) => theme.colors.border};
-  background-color: none;
+  border-color: ${({ theme }) => theme.colors.black};
+  background-color: ${({ theme }) => theme.colors.white};
 
   &:focus {
     outline: none;
@@ -61,8 +61,9 @@ const StyledButton = styled.button`
   width: 6.5rem;
   margin-left: 1rem;
   border-radius: 1rem;
-  border-color: ${({ theme }) => theme.colors.text};
-  background-color: none;
+  border-color: ${({ theme }) => theme.colors.black};
+  background-color: ${({ theme }) => theme.colors.white};
+  cursor: pointer;
 `;
 
 export default SearchBar;
