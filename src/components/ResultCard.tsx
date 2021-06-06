@@ -16,7 +16,7 @@ function ResultCard({ data }: IData) {
       </StyledId>
       <StyledBio>
         <p>BIO</p>
-        {data.bio}
+        {data.bio.length > 15 ? `${data.bio.substring(0, 15)} . . .` : `${data.bio}`}
       </StyledBio>
       <StyledUser>
         <StyledFollowers>
@@ -33,13 +33,14 @@ function ResultCard({ data }: IData) {
 }
 
 const StyledResultCardWrap = styled.div`
-  width: 76rem;
+  width: 73.7rem;
   height: 50rem;
   border-radius: 1rem;
   margin-top: 3rem;
   padding: 1rem;
   font-size: 1.5rem;
-  background-color: ${({ theme }) => theme.colors.card};
+  border: 0.2rem solid;
+  border-color: ${({ theme }) => theme.colors.black};
 
   p:nth-child(1) {
     font-weight: bold;
@@ -53,6 +54,7 @@ const StyledPhoto = styled.img`
   border: none 0.1rem;
   display: flex;
   align-items: center;
+  border-radius: 50%;
 `;
 
 const StyledName = styled.div`
