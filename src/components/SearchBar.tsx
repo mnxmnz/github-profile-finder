@@ -49,7 +49,7 @@ const StyledForm = styled.form`
 `;
 
 const StyledInput = styled.input`
-  width: 21rem;
+  width: 24rem;
   border-radius: 1rem;
   border-color: ${({ theme }) => theme.colors.black};
   background-color: ${({ theme }) => theme.colors.white};
@@ -60,7 +60,7 @@ const StyledInput = styled.input`
 `;
 
 const StyledButton = styled.button`
-  width: 5rem;
+  width: 8rem;
   margin-left: 1rem;
   border-radius: 1rem;
   border-color: ${({ theme }) => theme.colors.black};
