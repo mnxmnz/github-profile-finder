@@ -31,7 +31,9 @@ function SearchBar({ onSubmit }: SearchBarProps) {
 }
 
 const StyledSearchBarWrap = styled.div`
+  width: 75rem;
   display: flex;
+  justify-content: space-between;
 `;
 
 const StyledTitle = styled.div`

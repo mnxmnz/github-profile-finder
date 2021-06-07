@@ -33,7 +33,7 @@ function ResultCard({ data }: IData) {
 }
 
 const StyledResultCardWrap = styled.div`
-  width: 73.7rem;
+  width: 75rem;
   height: 50rem;
   border-radius: 1rem;
   margin-top: 3rem;
