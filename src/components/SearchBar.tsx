@@ -60,7 +60,7 @@ const StyledInput = styled.input`
 `;
 
 const StyledButton = styled.button`
-  width: 8rem;
+  width: 6rem;
   margin-left: 1rem;
   border-radius: 1rem;
   border-color: ${({ theme }) => theme.colors.black};
