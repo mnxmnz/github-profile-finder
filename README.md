@@ -1,8 +1,10 @@
-## Github Profile Finder 🔍
+## About The Repository
 
-Web Part Seminar 3차 개인 과제 <b>Github Profile Finder 🔍</b> 레포입니다.
+#### Web Part Seminar 3차 개인 과제 Github Profile Finder 🔍 레포입니다.
 
-## 🛠 사용 기술
+<br />
+
+## Built With
 
 ```
 "dependencies": {
@@ -30,13 +32,19 @@ Web Part Seminar 3차 개인 과제 <b>Github Profile Finder 🔍</b> 레포입�
 }
 ```
 
-## 🖥 Local 실행 방법
+<br />
 
-#### [1] NPM & Node.js 설치
+## Getting Started
 
-[NPM & Node.js 설치 바로가기](https://www.npmjs.com/get-npm)
+#### Prerequisites
 
-#### [2] Clone the Repo
+```
+npm install --global yarn
+```
+
+#### Installation
+
+1. Clone the Repo
 
 ```sh
 git clone https://github.com/mnxmnz/Github-Profile-Finder.git
@@ -46,18 +54,21 @@ git clone https://github.com/mnxmnz/Github-Profile-Finder.git
 cd Github-Profile-Finder
 ```
 
-#### [3] Install Project Packages
+2. Install Project Packages
 
 ```sh
 yarn
 ```
 
-#### [4] Run the Project
+3. Run the Project (Dev Mode)
 
 ```sh
 yarn start
+
+http://localhost:3000/
 ```
 
-## :link: URL
+<br />
 
-- [Github Profile Finder 바로가기](https://github-profile-finder-mnxmnz.vercel.app/)
+#### 🔗 [SOPT Site](http://sopt.org/wp/)
+#### 🔗 [SOPT Instagram](https://www.instagram.com/sopt_official/)
